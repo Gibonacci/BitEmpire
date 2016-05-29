@@ -1,1 +1,1305 @@
-<html> <head>  I'm so cool man.</head></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0022)http://burgerbude.net/ -->
+<html xml:lang="de" lang="de" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Burgerbude - MPICZ</title>
+<!-- start: headerinclude -->
+<link rel="alternate" type="application/rss+xml" title="Letzte Themen (RSS 2.0)" href="http://burgerbude.net/syndication.php">
+<link rel="alternate" type="application/atom+xml" title="Letzte Themen (Atom 1.0)" href="http://burgerbude.net/syndication.php?type=atom1.0">
+<link href="./Burgerbude - MPICZ_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="./Burgerbude - MPICZ_files/css" rel="stylesheet" type="text/css">
+
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<script type="text/javascript" src="./Burgerbude - MPICZ_files/jquery.js"></script><style type="text/css"></style>
+<script type="text/javascript" src="./Burgerbude - MPICZ_files/jquery.plugins.min.js"></script>
+<script type="text/javascript" src="./Burgerbude - MPICZ_files/general.js"></script>
+<script type="text/javascript" src="./Burgerbude - MPICZ_files/jquery-ui.js"></script>
+<link type="text/css" rel="stylesheet" href="./Burgerbude - MPICZ_files/global.css">
+<link type="text/css" rel="stylesheet" href="./Burgerbude - MPICZ_files/css3.css">
+<link type="text/css" rel="stylesheet" href="./Burgerbude - MPICZ_files/revolution.css">
+<link type="text/css" rel="stylesheet" href="./Burgerbude - MPICZ_files/tabs.css">
+<link type="text/css" rel="stylesheet" href="./Burgerbude - MPICZ_files/avatarep.css">
+<link type="text/css" rel="stylesheet" href="./Burgerbude - MPICZ_files/serversboard.css">
+
+<script type="text/javascript">
+<!--
+	lang.unknown_error = "Ein unbekannter Fehler ist aufgetreten.";
+
+	lang.select2_match = "Ein Ergebnis wurde gefunden, drücken Sie die Eingabetaste um es auszuwählen.";
+	lang.select2_matches = "{1} Ergebnisse wurden gefunden, benutzen Sie die Pfeiltasten zum Navigieren.";
+	lang.select2_nomatches = "Keine Ergebnisse gefunden";
+	lang.select2_inputtooshort_single = "Bitte geben Sie ein oder mehrere Zeichen ein";
+	lang.select2_inputtooshort_plural = "Bitte geben Sie {1} oder mehr Zeichen ein";
+	lang.select2_inputtoolong_single = "Bitte löschen Sie ein Zeichen";
+	lang.select2_inputtoolong_plural = "Bitte löschen Sie {1} Zeichen";
+	lang.select2_selectiontoobig_single = "Sie können nur einen Eintrag auswählen";
+	lang.select2_selectiontoobig_plural = "Sie können nur {1} Einträge auswählen";
+	lang.select2_loadmore = "Lade weitere Ergebnisse...";
+	lang.select2_searching = "Suche...";
+
+	var cookieDomain = ".burgerbude.net";
+	var cookiePath = "/";
+	var cookiePrefix = "";
+	var deleteevent_confirm = "Möchten Sie dieses Ereignis wirklich löschen?";
+	var removeattach_confirm = "Möchten Sie die ausgewählten Anhänge wirklich löschen?";
+	var loading_text = 'Lade.<br />Bitte warten...';
+	var saving_changes = 'Änderungen werden gespeichert ...';
+	var use_xmlhttprequest = "1";
+	var my_post_key = "ae2ab50c03f316777a2035ee1decc23b";
+	var rootpath = "http://burgerbude.net";
+	var imagepath = "http://burgerbude.net/images/revolution";
+  	var yes_confirm = "Ja";
+	var no_confirm = "Nein";
+	var MyBBEditor = null;
+	var spinner_image = "http://burgerbude.net/images/revolution/spinner.gif";
+	var spinner = "<img src='" + spinner_image +"' alt='' />";
+// -->
+</script><link type="text/css" rel="stylesheet" href="./Burgerbude - MPICZ_files/global.css">
+<link type="text/css" rel="stylesheet" href="./Burgerbude - MPICZ_files/css3.css">
+<link type="text/css" rel="stylesheet" href="./Burgerbude - MPICZ_files/revolution.css">
+<link type="text/css" rel="stylesheet" href="./Burgerbude - MPICZ_files/tabs.css">
+<link type="text/css" rel="stylesheet" href="./Burgerbude - MPICZ_files/avatarep.css">
+<link type="text/css" rel="stylesheet" href="./Burgerbude - MPICZ_files/serversboard.css">
+
+<!-- end: headerinclude -->
+<script type="text/javascript">
+<!--
+	lang.no_new_posts = "Forum enthält keine neuen Beiträge";
+	lang.click_mark_read = "Klicken Sie hier, um das Forum als gelesen zu markieren";
+// -->
+</script>
+</head>
+<body id="forums">
+<!-- start: header -->
+<a name="top" id="top"></a>
+<div id="container">
+		<div id="header">
+		<div id="content">
+			<div class="wrapper">
+<div class="menu">
+<ul>
+<li id="nav-portal"><a href="http://burgerbude.net/index.php"><i style="font-size: 13px;" class="fa fa-home fa-fw"></i> Home</a></li>
+<li id="nav-search"> <a href="http://burgerbude.net/search.php"><i style="font-size: 13px;" class="fa fa-search fa-fw"></i>  Suche</a></li>
+<li id="nav-forums"> <a href="http://burgerbude.net/showteam.php"><i style="font-size: 13px;" class="fa fa-wheelchair"></i> Team</a></li>
+<li id="nav-member"> <a href="http://burgerbude.net/memberlist.php"><i style="font-size: 13px;" class="fa fa-users fa-fw"></i> Members</a></li>
+<li id="nav-member"> <a href="http://steamcommunity.com/groups/burgerbude-mpicz"><i style="font-size: 13px;" class="fa fa-steam"></i> Join our Steamgroup</a></li>
+<li id="nav-member"> <a href="ts3server://ts3.burgerbude.net"><i style="font-size: 13px;" class="fa fa-headphones"></i> Connect our Teamspeak</a></li>
+</ul></div>
+<div class="topbar"> 
+<div class="float_left" style="margin-left: 7%; margin-top: 13px;"> 
+<a href="http://burgerbude.net/index.php"><img src="./Burgerbude - MPICZ_files/logo.png" alt="Burgerbude - MPICZ"></a></div>
+  <div class="float_right" style="margin-top:  60px;"><!-- start: header_welcomeblock_member -->
+  <div class="userbg">
+    <ul class="usermenu">
+       <li><a href="http://burgerbude.net/member.php?action=logout&amp;logoutkey=f777e7603ebb2928443071b4ba0dfcf6" class="logout">Abmelden</a></li>
+       
+       <li><a href="http://burgerbude.net/ucp.php" id="whatever_name"><font color="white">nemesis1337  <i style="font-size: 14px;" class="fa fa-angle-down fa-fw"></i>&nbsp;</font></a></li>
+      <li><a href="http://burgerbude.net/private.php">Inbox</a> <a href="http://burgerbude.net/private.php" id="pm_notification">0</a></li>
+			
+			
+		</ul>
+</div>
+
+    <div id="whatever_name_popup" class="popup_menu" style="display: none;">
+      <div class="popup_item_container">
+        <a href="http://burgerbude.net/usercp.php" class="popup_item">User panel</a>
+      </div>
+      <div class="popup_item_container">
+        <a href="http://burgerbude.net/usercp.php?action=profile" class="popup_item">Edit profile</a>
+      </div>
+      <div class="popup_item_container">
+        <a href="http://burgerbude.net/usercp.php?action=avatar" class="popup_item">Change avatar</a>
+      </div>
+      <div class="popup_item_container">
+        <a href="http://burgerbude.net/usercp.php?action=editsig" class="popup_item">Change signature</a>
+      </div>
+      <div class="popup_item_container">
+        <a href="http://burgerbude.net/usercp.php?action=subscriptions" class="popup_item">Subscribed threads</a>
+      </div>
+      <div class="popup_item_container">
+        <a href="http://burgerbude.net/usercp.php?action=editlists" class="popup_item">Connected friends</a>
+      </div>
+  </div> 
+<script type="text/javascript">
+// <!--
+    if(use_xmlhttprequest == "1")
+    {
+        $("#whatever_name").popupMenu();
+    }
+// -->
+</script>
+<!-- end: header_welcomeblock_member --></div> 
+  </div>
+         <br>
+          
+				
+				
+				
+				
+				
+              	 <!-- start: nav -->
+<div class="navigation">
+&nbsp; <i style="font-size: 14px;" class="fa fa-globe fa-fw"></i> <!-- start: nav_bit_active -->
+<span class="active">Burgerbude - MPICZ</span>
+<!-- end: nav_bit_active -->
+</div>
+<!-- end: nav --><br>
+                                   
+<script type="text/javascript">
+// <!--
+    if(use_xmlhttprequest == "1")
+    {
+        $("#extraslink").popupMenu();
+    }
+// -->
+</script>
+<!-- end: header -->
+<!-- start: serversboard -->
+<table border="0" cellspacing="0" cellpadding="5" class="tborder">
+<thead>
+<tr>
+<td class="thead" colspan="8">
+<div><strong>Servers list - Burgerbude - MPICZ</strong></div>
+</td>
+</tr>
+</thead>
+<tbody style="" id="serversboard_e">
+<tr><td class="tcat" align="center"><span class="smalltext"><strong>No.:</strong></span></td>
+<td class="tcat" align="center"><span class="smalltext"><strong>Status:</strong></span></td>
+<td class="tcat" align="center"><span class="smalltext"><strong>Type:</strong></span></td>
+<td class="tcat" align="center"><span class="smalltext"><strong>Server name:</strong></span></td>
+<td class="tcat" align="center"><span class="smalltext"><center><strong>IP:</strong></center></span></td>
+<td class="tcat" align="center"><span class="smalltext"><center><strong>Players/Slots:</strong></center></span></td>
+<td class="tcat" align="center"><span class="smalltext"><center><strong>Map:</strong></center></span></td>
+<td class="tcat" align="center"><span class="smalltext"><center><strong>More:</strong></center></span></td>
+<!-- start: serversboard_row -->
+</tr><tr>
+<td class="trow1" align="center"><span class="smalltext"><span class="server servernumber">1</span></span></td>
+<td class="trow1" align="center"><span class="smalltext"><span class="server serveronline">Online</span></span></td>
+<td class="trow1" align="center"><span class="smalltext" title="TeamSpeak 3"><img src="./Burgerbude - MPICZ_files/teamspeak3.png" style="vertical-align: middle;"></span></td>
+<td class="trow1" align="center"><span class="smalltext">Burgerbude - Paralympic Allstars</span></td>
+<td class="trow1" align="center"><span class="smalltext">84.200.229.12:9987</span></td>
+<td class="trow1" align="center"><span class="smalltext"><div style="position: relative;"><div class="progress progress-warning progress-striped" style="margin-bottom: 0px;"><div class="bar" style="width: 63%;"></div><div style="position: absolute;width: 100%;"><center> 20/32 - 63 %</center></div></div></div></span></td>
+<td class="trow1" align="center"><span class="smalltext">- - -</span></td>
+<td class="trow1" align="center"><span class="smalltext"><a href="http://www.gametracker.com/server_info/84.200.229.12:9987/" target="_blank"><img src="./Burgerbude - MPICZ_files/gt.png" style="vertical-align: middle;"></a> <a href="ts3server://84.200.229.12:9987"><img src="./Burgerbude - MPICZ_files/teamspeak3(1).png" style="vertical-align: middle;"></a>  <a href="http://burgerbude.net/serversboard.php?action=more_information&amp;sid=1"><img src="./Burgerbude - MPICZ_files/page.png" style="vertical-align: middle;"></a></span></td>
+</tr>
+<!-- end: serversboard_row --><!-- start: serversboard_row -->
+<tr>
+<td class="trow2" align="center"><span class="smalltext"><span class="server servernumber">2</span></span></td>
+<td class="trow2" align="center"><span class="smalltext"><span class="server serveronline">Online</span></span></td>
+<td class="trow2" align="center"><span class="smalltext" title="Counter-Strike Global Offensive"><img src="./Burgerbude - MPICZ_files/csgo.png" style="vertical-align: middle;"></span></td>
+<td class="trow2" align="center"><span class="smalltext">[GER] C H A O T E N Z E N T R A L E - [BETA]</span></td>
+<td class="trow2" align="center"><span class="smalltext">84.200.229.12:27025</span></td>
+<td class="trow2" align="center"><span class="smalltext"><div style="position: relative;"><div class="progress progress-danger progress-striped" style="margin-bottom: 0px;"><div class="bar" style="width: 0%;"></div><div style="position: absolute;width: 100%;"><center> 0/26 - 0 %</center></div></div></div></span></td>
+<td class="trow2" align="center"><span class="smalltext">cs_office</span></td>
+<td class="trow2" align="center"><span class="smalltext"><a href="http://www.gametracker.com/server_info/84.200.229.12:27025/" target="_blank"><img src="./Burgerbude - MPICZ_files/gt.png" style="vertical-align: middle;"></a> <a href="steam://connect/84.200.229.12:27025"><img src="./Burgerbude - MPICZ_files/steam.png" style="vertical-align: middle;"></a>  <a href="http://burgerbude.net/serversboard.php?action=more_information&amp;sid=3"><img src="./Burgerbude - MPICZ_files/page.png" style="vertical-align: middle;"></a></span></td>
+</tr>
+<!-- end: serversboard_row --><!-- start: serversboard_row -->
+<tr>
+<td class="trow1" align="center"><span class="smalltext"><span class="server servernumber">3</span></span></td>
+<td class="trow1" align="center"><span class="smalltext"><span class="server serveronline">Online</span></span></td>
+<td class="trow1" align="center"><span class="smalltext" title="Counter-Strike Global Offensive"><img src="./Burgerbude - MPICZ_files/csgo.png" style="vertical-align: middle;"></span></td>
+<td class="trow1" align="center"><span class="smalltext">| AWP-NOSCOPE | 102Tick | HlStatsX | Customskins | FastDL |</span></td>
+<td class="trow1" align="center"><span class="smalltext">84.200.229.12:27015</span></td>
+<td class="trow1" align="center"><span class="smalltext"><div style="position: relative;"><div class="progress progress-warning progress-striped" style="margin-bottom: 0px;"><div class="bar" style="width: 69%;"></div><div style="position: absolute;width: 100%;"><center> 18/26 - 69 %</center></div></div></div></span></td>
+<td class="trow1" align="center"><span class="smalltext">awp_crashz_garden_v2</span></td>
+<td class="trow1" align="center"><span class="smalltext"><a href="http://www.gametracker.com/server_info/84.200.229.12:27015/" target="_blank"><img src="./Burgerbude - MPICZ_files/gt.png" style="vertical-align: middle;"></a> <a href="steam://connect/84.200.229.12:27015"><img src="./Burgerbude - MPICZ_files/steam.png" style="vertical-align: middle;"></a>  <a href="http://burgerbude.net/serversboard.php?action=more_information&amp;sid=2"><img src="./Burgerbude - MPICZ_files/page.png" style="vertical-align: middle;"></a></span></td>
+</tr>
+<!-- end: serversboard_row --><!-- start: serversboard_row -->
+<tr>
+<td class="trow2" align="center"><span class="smalltext"><span class="server servernumber">4</span></span></td>
+<td class="trow2" align="center"><span class="smalltext"><span class="server serveronline">Online</span></span></td>
+<td class="trow2" align="center"><span class="smalltext" title="Counter-Strike Global Offensive"><img src="./Burgerbude - MPICZ_files/csgo.png" style="vertical-align: middle;"></span></td>
+<td class="trow2" align="center"><span class="smalltext">| Knife-Only | 102Tick | HlStatsX | Customskins | FastDL |</span></td>
+<td class="trow2" align="center"><span class="smalltext">84.200.229.12:27035</span></td>
+<td class="trow2" align="center"><span class="smalltext"><div style="position: relative;"><div class="progress progress-danger progress-striped" style="margin-bottom: 0px;"><div class="bar" style="width: 0%;"></div><div style="position: absolute;width: 100%;"><center> 0/24 - 0 %</center></div></div></div></span></td>
+<td class="trow2" align="center"><span class="smalltext">de_dust</span></td>
+<td class="trow2" align="center"><span class="smalltext"><a href="http://www.gametracker.com/server_info/84.200.229.12:27035/" target="_blank"><img src="./Burgerbude - MPICZ_files/gt.png" style="vertical-align: middle;"></a> <a href="steam://connect/84.200.229.12:27035"><img src="./Burgerbude - MPICZ_files/steam.png" style="vertical-align: middle;"></a>  <a href="http://burgerbude.net/serversboard.php?action=more_information&amp;sid=5"><img src="./Burgerbude - MPICZ_files/page.png" style="vertical-align: middle;"></a></span></td>
+</tr>
+<!-- end: serversboard_row -->
+<!-- start: serversboard_summation -->
+<tr>
+<td class="trow1" align="center" colspan="8">
+&nbsp;&nbsp;&nbsp;&nbsp;Total servers: <span class="server serverssummation">4</span>
+&nbsp;&nbsp;&nbsp;&nbsp;Total players: <span class="server serverssummation">38</span>  
+&nbsp;&nbsp;&nbsp;&nbsp;Total slots: <span class="server serverssummation">108</span> 
+&nbsp;&nbsp;&nbsp;&nbsp;Total empty slots: <span class="server serverssummation">70</span>
+&nbsp;&nbsp;&nbsp;&nbsp;Percent players: <span class="server serverssummation">35 %</span>
+&nbsp;&nbsp;&nbsp;&nbsp;Record players: <span class="server serverssummation">55</span>
+</td>
+</tr>
+<!-- end: serversboard_summation -->
+</tbody>
+</table>
+<br>
+<!-- end: serversboard -->
+<!-- start: prostats -->
+<script type="text/javascript">
+<!--
+
+function prostats_reload()
+{
+	$("#prostats_table").prepend('<div id="ps_reload_layer" class="tborder"><img src="http://burgerbude.net/images/spinner_big.gif" alt="spinner" /></div>');
+	
+	$('#ps_reload_layer').css({
+		"height": $('#prostats_table').find('table:first').height()+'px',
+		"width": $('#prostats_table').find('table:first').width()+'px',
+		"top": $('#prostats_table').offset().top,
+	}).fadeTo(0, 0.1).fadeTo("slow" , 0.8);
+	
+    $.ajax(
+    {
+        type: 'POST',
+        url: 'http://burgerbude.net/xmlhttp.php?action=prostats_reload',
+        dataType: 'json',
+        data: { ajax: 1, my_post_key: my_post_key },
+        success: prostats_done
+    });
+	return false;
+}
+
+function prostats_done(data)
+{
+	if(data.hasOwnProperty("errors"))
+	{
+		$(".jGrowl").jGrowl("close");
+
+		$.each(data.errors, function(i, message)
+		{
+			$.jGrowl(message);
+		});
+	}
+	else if(data.html)
+	{
+		$("#prostats_table").html(data.html);
+	}
+}
+-->
+</script>
+<style type="text/css">
+#ps_reload_layer {
+	display: block;
+	position: absolute;
+	z-order:1000;
+	background: #fff;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#ps_reload_layer img {
+	position: relative;
+	top: 30%;
+}
+
+.ps_unapproved {
+	background-color:#FFDDE0;
+}
+
+.ps_deleted {
+	background-color:#E8DEFF;
+}
+
+.ps_undermod {
+	background-color:#FFFE92;
+}
+
+.ps_both {
+	background-color:#FFDA91;
+}
+
+.ps_status {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(http://burgerbude.net/images/prostats/status_sprite.png);
+	vertical-align: bottom;
+}
+
+.ps_status.ps_minion {
+	background-position: 0 0;
+}
+
+.ps_status.ps_minioff {
+	background-position: 0 -16px;
+}
+
+.ps_status.ps_miniofflock {
+	background-position: 0 -32px;
+}
+
+/* Fix bad border-radius */
+#prostats_table .tcat td,
+#prostats_table .trow1 td,
+#prostats_table .trow2 td {
+	border-radius: 0;
+}
+
+#prostats_table .thead {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+</style>
+
+		<div id="prostats_table">
+		
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tborder">
+		<thead>
+		<tr><td colspan="4">
+			<table border="0" cellspacing="0" cellpadding="5" width="100%">
+			<tbody><tr>
+			<td class="thead">
+				<div class="float_right"><a href="http://burgerbude.net/" onclick="return prostats_reload();">Reload <img src="./Burgerbude - MPICZ_files/ps_reload.png" style="vertical-align:middle;" alt=""></a></div>
+				<strong>Forum stats</strong>
+			</td>
+			</tr>
+			</tbody></table>
+		</td>
+		</tr>
+		</thead>
+		<tbody>
+		
+		<tr valign="top">
+		<!-- start: prostats_newestposts -->
+<td class="trow1"><table width="100%" border="0" cellspacing="0" cellpadding="5">
+		<tbody><tr class="tcat smalltext">
+		<td colspan="5">Latest posts</td>
+		</tr>
+		<tr>
+		<td colspan="5">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tbody><tr class="trow1 smalltext">
+		<!-- start: prostats_newestposts_head_latest_posts -->
+<td>Topic</td>
+<!-- end: prostats_newestposts_head_latest_posts --><!-- start: prostats_newestposts_head_date -->
+<td>Date, time&nbsp;</td>
+<!-- end: prostats_newestposts_head_date --><!-- start: prostats_newestposts_head_starter -->
+<td>Author</td>
+<!-- end: prostats_newestposts_head_starter --><!-- start: prostats_newestposts_head_last_sender -->
+<td>Last Sender</td>
+<!-- end: prostats_newestposts_head_last_sender --><!-- start: prostats_newestposts_head_forum -->
+<td>Forum</td>
+<!-- end: prostats_newestposts_head_forum -->
+		</tr>
+		<!-- start: prostats_newestposts_row -->
+<tr class="trow1 smalltext">
+		<!-- start: prostats_newestposts_latest_posts -->
+<td><!-- start: prostats_readstate_icon -->
+<span class="ps_status ps_minion"> </span>&nbsp;
+<!-- end: prostats_readstate_icon --><a href="http://burgerbude.net/showthread.php?tid=73&amp;action=lastpost" title="Bewerbung als Admin">Bewerbung als Admin</a></td>
+<!-- end: prostats_newestposts_latest_posts --><!-- start: prostats_newestposts_date -->
+<td><!-- start: prostats_newestposts_specialchar -->
+<a href="http://burgerbude.net/showthread.php?tid=73&amp;action=lastpost" style="text-decoration: none;"><font face="arial" style="line-height:10px;">▼</font></a>
+<!-- end: prostats_newestposts_specialchar -->05-27, 22:47</td>
+<!-- end: prostats_newestposts_date --><!-- start: prostats_newestposts_starter -->
+<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=65">I'm BLUE</a></td>
+<!-- end: prostats_newestposts_starter --><!-- start: prostats_newestposts_last_sender -->
+<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=65">I'm BLUE</a></td>
+<!-- end: prostats_newestposts_last_sender --><!-- start: prostats_newestposts_forum -->
+<td><a href="http://burgerbude.net/forumdisplay.php?fid=16" title="Bewerbungen">Bewerbungen</a></td>
+<!-- end: prostats_newestposts_forum -->
+		</tr>
+<!-- end: prostats_newestposts_row --><!-- start: prostats_newestposts_row -->
+<tr class="trow1 smalltext">
+		<!-- start: prostats_newestposts_latest_posts -->
+<td><!-- start: prostats_readstate_icon -->
+<span class="ps_status ps_minioff"> </span>&nbsp;
+<!-- end: prostats_readstate_icon --><a href="http://burgerbude.net/showthread.php?tid=72&amp;action=lastpost" title="Burgerbude - Info">Burgerbude - Info</a></td>
+<!-- end: prostats_newestposts_latest_posts --><!-- start: prostats_newestposts_date -->
+<td><!-- start: prostats_newestposts_specialchar -->
+<a href="http://burgerbude.net/showthread.php?tid=72&amp;action=lastpost" style="text-decoration: none;"><font face="arial" style="line-height:10px;">▼</font></a>
+<!-- end: prostats_newestposts_specialchar -->05-27, 15:34</td>
+<!-- end: prostats_newestposts_date --><!-- start: prostats_newestposts_starter -->
+<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=1"><span style="font-weight: bold;color: #B12121;"><strong>_nCo</strong></span></a></td>
+<!-- end: prostats_newestposts_starter --><!-- start: prostats_newestposts_last_sender -->
+<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=1"><span style="font-weight: bold;color: #B12121;"><strong>_nCo</strong></span></a></td>
+<!-- end: prostats_newestposts_last_sender --><!-- start: prostats_newestposts_forum -->
+<td><a href="http://burgerbude.net/forumdisplay.php?fid=2" title="News">News</a></td>
+<!-- end: prostats_newestposts_forum -->
+		</tr>
+<!-- end: prostats_newestposts_row --><!-- start: prostats_newestposts_row -->
+<tr class="trow1 smalltext">
+		<!-- start: prostats_newestposts_latest_posts -->
+<td><!-- start: prostats_readstate_icon -->
+<span class="ps_status ps_minioff"> </span>&nbsp;
+<!-- end: prostats_readstate_icon --><a href="http://burgerbude.net/showthread.php?tid=65&amp;action=lastpost" title="Round-End-Sounds">Round-End-Sounds</a></td>
+<!-- end: prostats_newestposts_latest_posts --><!-- start: prostats_newestposts_date -->
+<td><!-- start: prostats_newestposts_specialchar -->
+<a href="http://burgerbude.net/showthread.php?tid=65&amp;action=lastpost" style="text-decoration: none;"><font face="arial" style="line-height:10px;">▼</font></a>
+<!-- end: prostats_newestposts_specialchar -->05-22, 12:40</td>
+<!-- end: prostats_newestposts_date --><!-- start: prostats_newestposts_starter -->
+<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=2"><span style="font-weight: bold;color: #B12121;"><strong>Siplex</strong></span></a></td>
+<!-- end: prostats_newestposts_starter --><!-- start: prostats_newestposts_last_sender -->
+<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=2"><span style="font-weight: bold;color: #B12121;"><strong>Siplex</strong></span></a></td>
+<!-- end: prostats_newestposts_last_sender --><!-- start: prostats_newestposts_forum -->
+<td><a href="http://burgerbude.net/forumdisplay.php?fid=8" title="Musik">Musik</a></td>
+<!-- end: prostats_newestposts_forum -->
+		</tr>
+<!-- end: prostats_newestposts_row --><!-- start: prostats_newestposts_row -->
+<tr class="trow1 smalltext">
+		<!-- start: prostats_newestposts_latest_posts -->
+<td><!-- start: prostats_readstate_icon -->
+<span class="ps_status ps_minioff"> </span>&nbsp;
+<!-- end: prostats_readstate_icon --><a href="http://burgerbude.net/showthread.php?tid=49&amp;action=lastpost" title="[Changelog] Server">[Changelog] Server</a></td>
+<!-- end: prostats_newestposts_latest_posts --><!-- start: prostats_newestposts_date -->
+<td><!-- start: prostats_newestposts_specialchar -->
+<a href="http://burgerbude.net/showthread.php?tid=49&amp;action=lastpost" style="text-decoration: none;"><font face="arial" style="line-height:10px;">▼</font></a>
+<!-- end: prostats_newestposts_specialchar -->05-15, 19:16</td>
+<!-- end: prostats_newestposts_date --><!-- start: prostats_newestposts_starter -->
+<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=10"><span style="font-weight: bold;color: #227AE6;"><strong>justNCO</strong></span></a></td>
+<!-- end: prostats_newestposts_starter --><!-- start: prostats_newestposts_last_sender -->
+<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=10"><span style="font-weight: bold;color: #227AE6;"><strong>justNCO</strong></span></a></td>
+<!-- end: prostats_newestposts_last_sender --><!-- start: prostats_newestposts_forum -->
+<td><a href="http://burgerbude.net/forumdisplay.php?fid=31" title="Arma III">Arma III</a></td>
+<!-- end: prostats_newestposts_forum -->
+		</tr>
+<!-- end: prostats_newestposts_row --><!-- start: prostats_newestposts_row -->
+<tr class="trow1 smalltext">
+		<!-- start: prostats_newestposts_latest_posts -->
+<td><!-- start: prostats_readstate_icon -->
+<span class="ps_status ps_minioff"> </span>&nbsp;
+<!-- end: prostats_readstate_icon --><a href="http://burgerbude.net/showthread.php?tid=53&amp;action=lastpost" title="[HOW TO] Play on our server">[HOW TO] Play on our serv...</a></td>
+<!-- end: prostats_newestposts_latest_posts --><!-- start: prostats_newestposts_date -->
+<td><!-- start: prostats_newestposts_specialchar -->
+<a href="http://burgerbude.net/showthread.php?tid=53&amp;action=lastpost" style="text-decoration: none;"><font face="arial" style="line-height:10px;">▼</font></a>
+<!-- end: prostats_newestposts_specialchar -->05-14, 12:52</td>
+<!-- end: prostats_newestposts_date --><!-- start: prostats_newestposts_starter -->
+<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=11">RudiiRammler</a></td>
+<!-- end: prostats_newestposts_starter --><!-- start: prostats_newestposts_last_sender -->
+<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=11">RudiiRammler</a></td>
+<!-- end: prostats_newestposts_last_sender --><!-- start: prostats_newestposts_forum -->
+<td><a href="http://burgerbude.net/forumdisplay.php?fid=31" title="Arma III">Arma III</a></td>
+<!-- end: prostats_newestposts_forum -->
+		</tr>
+<!-- end: prostats_newestposts_row --><!-- start: prostats_newestposts_row -->
+<tr class="trow1 smalltext">
+		<!-- start: prostats_newestposts_latest_posts -->
+<td><!-- start: prostats_readstate_icon -->
+<span class="ps_status ps_minioff"> </span>&nbsp;
+<!-- end: prostats_readstate_icon --><a href="http://burgerbude.net/showthread.php?tid=71&amp;action=lastpost" title="Forum Changelog">Forum Changelog</a></td>
+<!-- end: prostats_newestposts_latest_posts --><!-- start: prostats_newestposts_date -->
+<td><!-- start: prostats_newestposts_specialchar -->
+<a href="http://burgerbude.net/showthread.php?tid=71&amp;action=lastpost" style="text-decoration: none;"><font face="arial" style="line-height:10px;">▼</font></a>
+<!-- end: prostats_newestposts_specialchar -->05-14, 03:23</td>
+<!-- end: prostats_newestposts_date --><!-- start: prostats_newestposts_starter -->
+<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=1"><span style="font-weight: bold;color: #B12121;"><strong>_nCo</strong></span></a></td>
+<!-- end: prostats_newestposts_starter --><!-- start: prostats_newestposts_last_sender -->
+<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=1"><span style="font-weight: bold;color: #B12121;"><strong>_nCo</strong></span></a></td>
+<!-- end: prostats_newestposts_last_sender --><!-- start: prostats_newestposts_forum -->
+<td><a href="http://burgerbude.net/forumdisplay.php?fid=5" title="Allgemeiner Talk">Allgemeiner T...</a></td>
+<!-- end: prostats_newestposts_forum -->
+		</tr>
+<!-- end: prostats_newestposts_row -->
+</tbody></table></td>
+		</tr>
+		</tbody></table></td>
+<!-- end: prostats_newestposts --><!-- start: prostats_onerowextra -->
+<td class="trow2"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><!-- start: prostats_topposters -->
+<td><table width="100%" border="0" cellspacing="0" cellpadding="5">
+		<tbody><tr class="tcat smalltext">
+		<td colspan="2">Top posters</td>
+		</tr>
+		<tr>
+<td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<!-- start: prostats_topposters_row -->
+<tbody><tr class="smalltext">
+		<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=5"><span style="font-weight: bold;color: #B12121;"><strong>Prim3z</strong></span></a></td>
+		<td align="left"><a href="http://burgerbude.net/search.php?action=finduser&amp;uid=5">43</a></td>
+		</tr>
+<!-- end: prostats_topposters_row --><!-- start: prostats_topposters_row -->
+<tr class="smalltext">
+		<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=1"><span style="font-weight: bold;color: #B12121;"><strong>_nCo</strong></span></a></td>
+		<td align="left"><a href="http://burgerbude.net/search.php?action=finduser&amp;uid=1">26</a></td>
+		</tr>
+<!-- end: prostats_topposters_row --><!-- start: prostats_topposters_row -->
+<tr class="smalltext">
+		<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=10"><span style="font-weight: bold;color: #227AE6;"><strong>justNCO</strong></span></a></td>
+		<td align="left"><a href="http://burgerbude.net/search.php?action=finduser&amp;uid=10">16</a></td>
+		</tr>
+<!-- end: prostats_topposters_row --><!-- start: prostats_topposters_row -->
+<tr class="smalltext">
+		<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=2"><span style="font-weight: bold;color: #B12121;"><strong>Siplex</strong></span></a></td>
+		<td align="left"><a href="http://burgerbude.net/search.php?action=finduser&amp;uid=2">10</a></td>
+		</tr>
+<!-- end: prostats_topposters_row --><!-- start: prostats_topposters_row -->
+<tr class="smalltext">
+		<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=11">RudiiRammler</a></td>
+		<td align="left"><a href="http://burgerbude.net/search.php?action=finduser&amp;uid=11">8</a></td>
+		</tr>
+<!-- end: prostats_topposters_row --><!-- start: prostats_topposters_row -->
+<tr class="smalltext">
+		<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=65">I'm BLUE</a></td>
+		<td align="left"><a href="http://burgerbude.net/search.php?action=finduser&amp;uid=65">3</a></td>
+		</tr>
+<!-- end: prostats_topposters_row --><!-- start: prostats_topposters_row -->
+<tr class="smalltext">
+		<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=23"><span style="font-weight: bold;color: #227AE6;"><strong>Don C.</strong></span></a></td>
+		<td align="left"><a href="http://burgerbude.net/search.php?action=finduser&amp;uid=23">3</a></td>
+		</tr>
+<!-- end: prostats_topposters_row -->
+</tbody></table></td></tr>
+		</tbody></table></td>
+<!-- end: prostats_topposters --></tr></tbody></table></td>
+<!-- end: prostats_onerowextra --><!-- start: prostats_onerowextra -->
+<td class="trow1"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><!-- start: prostats_mostreplies -->
+<td><table width="100%" border="0" cellspacing="0" cellpadding="5">
+		<tbody><tr class="tcat smalltext">
+		<td colspan="2">Most replies</td>
+		</tr>
+		<tr>
+<td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<!-- start: prostats_mostreplies_row -->
+<tbody><tr class="smalltext">
+		<td><!-- start: prostats_readstate_icon -->
+<span class="ps_status ps_minion"> </span>&nbsp;
+<!-- end: prostats_readstate_icon --><a href="http://burgerbude.net/showthread.php?tid=73" title="Bewerbung als Admin">Bewerbung als...</a></td>
+		<td align="left"><a href="javascript:MyBB.whoPosted(73);">6</a></td>
+		</tr>
+<!-- end: prostats_mostreplies_row --><!-- start: prostats_mostreplies_row -->
+<tr class="smalltext">
+		<td><!-- start: prostats_readstate_icon -->
+<span class="ps_status ps_minioff"> </span>&nbsp;
+<!-- end: prostats_readstate_icon --><a href="http://burgerbude.net/showthread.php?tid=65" title="Round-End-Sounds">Round-End-Sou...</a></td>
+		<td align="left"><a href="javascript:MyBB.whoPosted(65);">6</a></td>
+		</tr>
+<!-- end: prostats_mostreplies_row --><!-- start: prostats_mostreplies_row -->
+<tr class="smalltext">
+		<td><!-- start: prostats_readstate_icon -->
+<span class="ps_status ps_minioff"> </span>&nbsp;
+<!-- end: prostats_readstate_icon --><a href="http://burgerbude.net/showthread.php?tid=25" title="[FORUM] Bugs melden">[FORUM] Bugs ...</a></td>
+		<td align="left"><a href="javascript:MyBB.whoPosted(25);">5</a></td>
+		</tr>
+<!-- end: prostats_mostreplies_row --><!-- start: prostats_mostreplies_row -->
+<tr class="smalltext">
+		<td><!-- start: prostats_readstate_icon -->
+<span class="ps_status ps_minioff"> </span>&nbsp;
+<!-- end: prostats_readstate_icon --><a href="http://burgerbude.net/showthread.php?tid=49" title="[Changelog] Server">[Changelog] S...</a></td>
+		<td align="left"><a href="javascript:MyBB.whoPosted(49);">5</a></td>
+		</tr>
+<!-- end: prostats_mostreplies_row --><!-- start: prostats_mostreplies_row -->
+<tr class="smalltext">
+		<td><!-- start: prostats_readstate_icon -->
+<span class="ps_status ps_minioff"> </span>&nbsp;
+<!-- end: prostats_readstate_icon --><a href="http://burgerbude.net/showthread.php?tid=45" title="[GER] CHAOTENZENTRALE - Beta Release">[GER] CHAOTEN...</a></td>
+		<td align="left"><a href="javascript:MyBB.whoPosted(45);">4</a></td>
+		</tr>
+<!-- end: prostats_mostreplies_row --><!-- start: prostats_mostreplies_row -->
+<tr class="smalltext">
+		<td><!-- start: prostats_readstate_icon -->
+<span class="ps_status ps_minioff"> </span>&nbsp;
+<!-- end: prostats_readstate_icon --><a href="http://burgerbude.net/showthread.php?tid=53" title="[HOW TO] Play on our server">[HOW TO] Play...</a></td>
+		<td align="left"><a href="javascript:MyBB.whoPosted(53);">4</a></td>
+		</tr>
+<!-- end: prostats_mostreplies_row --><!-- start: prostats_mostreplies_row -->
+<tr class="smalltext">
+		<td><!-- start: prostats_readstate_icon -->
+<span class="ps_status ps_minioff"> </span>&nbsp;
+<!-- end: prostats_readstate_icon --><a href="http://burgerbude.net/showthread.php?tid=64" title="Noscope Beta release">Noscope Beta ...</a></td>
+		<td align="left"><a href="javascript:MyBB.whoPosted(64);">3</a></td>
+		</tr>
+<!-- end: prostats_mostreplies_row -->
+</tbody></table></td></tr>
+		</tbody></table></td>
+<!-- end: prostats_mostreplies --></tr></tbody></table></td>
+<!-- end: prostats_onerowextra --><!-- start: prostats_onerowextra -->
+<td class="trow2"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><!-- start: prostats_newmembers -->
+<td><table width="100%" border="0" cellspacing="0" cellpadding="5">
+		<tbody><tr class="tcat smalltext">
+		<td colspan="2">Newest members</td>
+		</tr>
+		<tr>
+<td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<!-- start: prostats_newmembers_row -->
+<tbody><tr class="smalltext">
+		<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=66">nemesis1337</a></td>
+		<td align="left">05-27</td>
+		</tr>
+<!-- end: prostats_newmembers_row --><!-- start: prostats_newmembers_row -->
+<tr class="smalltext">
+		<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=65">I'm BLUE</a></td>
+		<td align="left">05-27</td>
+		</tr>
+<!-- end: prostats_newmembers_row --><!-- start: prostats_newmembers_row -->
+<tr class="smalltext">
+		<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=64">.UnlucKy</a></td>
+		<td align="left">05-26</td>
+		</tr>
+<!-- end: prostats_newmembers_row --><!-- start: prostats_newmembers_row -->
+<tr class="smalltext">
+		<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=63">Ralby</a></td>
+		<td align="left">05-25</td>
+		</tr>
+<!-- end: prostats_newmembers_row --><!-- start: prostats_newmembers_row -->
+<tr class="smalltext">
+		<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=62">Crit</a></td>
+		<td align="left">05-25</td>
+		</tr>
+<!-- end: prostats_newmembers_row --><!-- start: prostats_newmembers_row -->
+<tr class="smalltext">
+		<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=61">4MATT3R</a></td>
+		<td align="left">05-25</td>
+		</tr>
+<!-- end: prostats_newmembers_row --><!-- start: prostats_newmembers_row -->
+<tr class="smalltext">
+		<td><a href="http://burgerbude.net/member.php?action=profile&amp;uid=60">Critto</a></td>
+		<td align="left">05-25</td>
+		</tr>
+<!-- end: prostats_newmembers_row -->
+</tbody></table></td></tr>
+		</tbody></table></td>
+<!-- end: prostats_newmembers --></tr></tbody></table></td>
+<!-- end: prostats_onerowextra -->
+		</tr>
+		<!-- start: prostats_message -->
+<tr class="trow1">
+		<td colspan="4">
+		<table border="0" cellspacing="0" cellpadding="5" width="100%">
+		<tbody><tr class="smalltext">
+		<td>
+		<center><a href="http://www.gametracker.com/server_info/84.200.63.10:2302/" target="_blank"><img src="./Burgerbude - MPICZ_files/b_560_95_1.png" border="0" width="560" height="95" alt=""></a>
+		</center></td>
+		</tr>
+		</tbody></table>
+		</td>
+		</tr>
+<!-- end: prostats_message -->
+		</tbody>
+		</table>
+		<br>
+		</div>
+<!-- end: prostats -->
+	<!-- start: dvz_shoutbox -->
+<div id="shoutbox" class="front">
+
+<div class="head">
+<strong>Shoutbox</strong>
+<p class="right"><a href="http://burgerbude.net/index.php?action=shoutbox_archive">« archive</a></p>
+</div>
+
+<div class="body">
+
+<!-- start: dvz_shoutbox_panel -->
+<div class="panel">
+<form>
+<input type="text" class="text" placeholder="ENTER your message..." maxlength="" autocomplete="off">
+<input type="submit" style="display:none">
+</form>
+</div>
+<!-- end: dvz_shoutbox_panel -->
+
+<div class="window" style="height:260px">
+<div class="data">
+
+<div class="entry" data-id="144" data-username="Siplex" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/avatar_2.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=2"><span style="font-weight: bold;color: #B12121;"><strong>Siplex</strong></span></a></div>
+    <div class="text">krassssss</div>
+    <div class="info"><span class="date">29 May 17:01</span></div>
+</div>
+<div class="entry" data-id="143" data-username="I&#39;m BLUE" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/default_avatar.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=65">I'm BLUE</a></div>
+    <div class="text">Bankyy jetzt habe ich bock auf einen Hamburger </div>
+    <div class="info"><span class="date">27 May 19:26</span></div>
+</div>
+<div class="entry" data-id="142" data-username="Bankyy" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/avatar_8.jpg" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=8"><span style="font-weight: bold;color: #05F1E4;"><strong>Bankyy</strong></span></a></div>
+    <div class="text">ham ham Hamburger</div>
+    <div class="info"><span class="date">27 May 15:52</span></div>
+</div>
+<div class="entry" data-id="141" data-username="_nCo" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/avatar_1.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=1"><span style="font-weight: bold;color: #B12121;"><strong>_nCo</strong></span></a></div>
+    <div class="text">hayum hayum hayuuuuum</div>
+    <div class="info"><span class="date">27 May 15:34</span></div>
+</div>
+<div class="entry" data-id="140" data-username="Prim3z" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/avatar_5.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=5"><span style="font-weight: bold;color: #B12121;"><strong>Prim3z</strong></span></a></div>
+    <div class="text">NoScope is going ham </div>
+    <div class="info"><span class="date">27 May 15:20</span></div>
+</div>
+<div class="entry" data-id="139" data-username="_nCo" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/avatar_1.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=1"><span style="font-weight: bold;color: #B12121;"><strong>_nCo</strong></span></a></div>
+    <div class="text">hi</div>
+    <div class="info"><span class="date">25 May 18:47</span></div>
+</div>
+<div class="entry" data-id="138" data-username="zExpireTz" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/default_avatar.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=59">zExpireTz</a></div>
+    <div class="text">Hellooo :p</div>
+    <div class="info"><span class="date">25 May 17:04</span></div>
+</div>
+<div class="entry" data-id="137" data-username="Prim3z" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/avatar_5.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=5"><span style="font-weight: bold;color: #B12121;"><strong>Prim3z</strong></span></a></div>
+    <div class="text">boa crazy shit </div>
+    <div class="info"><span class="date">24 May 16:47</span></div>
+</div>
+<div class="entry" data-id="136" data-username="_nCo" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/avatar_1.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=1"><span style="font-weight: bold;color: #B12121;"><strong>_nCo</strong></span></a></div>
+    <div class="text">Burgerbude läuft nun unter PHP 7</div>
+    <div class="info"><span class="date">24 May 16:47</span></div>
+</div>
+<div class="entry" data-id="133" data-username="Prim3z" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/avatar_5.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=5"><span style="font-weight: bold;color: #B12121;"><strong>Prim3z</strong></span></a></div>
+    <div class="text">uff wasn typ</div>
+    <div class="info"><span class="date">21 May 15:41</span></div>
+</div>
+<div class="entry" data-id="132" data-username="Siplex" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/avatar_2.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=2"><span style="font-weight: bold;color: #B12121;"><strong>Siplex</strong></span></a></div>
+    <div class="text">uff wäre geil</div>
+    <div class="info"><span class="date">21 May 11:31</span></div>
+</div>
+<div class="entry" data-id="131" data-username="_nCo" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/avatar_1.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=1"><span style="font-weight: bold;color: #B12121;"><strong>_nCo</strong></span></a></div>
+    <div class="text">Soll ich uns xenforo klären ? <img src="./Burgerbude - MPICZ_files/smile.png" alt="Smile" title="Smile" class="smilie smilie_1"></div>
+    <div class="info"><span class="date">21 May 10:35</span></div>
+</div>
+<div class="entry" data-id="130" data-username="LeonB" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/default_avatar.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=38">LeonB</a></div>
+    <div class="text">Twettel nicht ausversehen</div>
+    <div class="info"><span class="date">19 May 14:43</span></div>
+</div>
+<div class="entry" data-id="129" data-username="LeonB" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/default_avatar.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=38">LeonB</a></div>
+    <div class="text">Twettel und 	ENVUS HappyV*	Acip/a/dude&lt;3 </div>
+    <div class="info"><span class="date">19 May 14:39</span></div>
+</div>
+<div class="entry" data-id="128" data-username="_nCo" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/avatar_1.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=1"><span style="font-weight: bold;color: #B12121;"><strong>_nCo</strong></span></a></div>
+    <div class="text">name?</div>
+    <div class="info"><span class="date">18 May 17:07</span></div>
+</div>
+<div class="entry" data-id="127" data-username="Siplex" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/avatar_2.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=2"><span style="font-weight: bold;color: #B12121;"><strong>Siplex</strong></span></a></div>
+    <div class="text">Name?</div>
+    <div class="info"><span class="date">18 May 16:58</span></div>
+</div>
+<div class="entry" data-id="126" data-username="LeonB" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/default_avatar.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=38">LeonB</a></div>
+    <div class="text">er rastet aus und hat keine anderen probleme</div>
+    <div class="info"><span class="date">18 May 16:55</span></div>
+</div>
+<div class="entry" data-id="125" data-username="LeonB" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/default_avatar.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=38">LeonB</a></div>
+    <div class="text">brauche hilfe vom admin hier beleidigt eine die ganze zeit im Bhop server</div>
+    <div class="info"><span class="date">18 May 16:54</span></div>
+</div>
+<div class="entry" data-id="124" data-username="LeonB" parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/default_avatar.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=38">LeonB</a></div>
+    <div class="text">Hey</div>
+    <div class="info"><span class="date">18 May 16:26</span></div>
+</div>
+<div class="entry" data-id="123" data-username="Don C." parsed="">
+    <div class="avatar"><img src="./Burgerbude - MPICZ_files/default_avatar.png" alt="avatar"></div>
+    <div class="user"><a href="http://burgerbude.net/member.php?action=profile&amp;uid=23"><span style="font-weight: bold;color: #227AE6;"><strong>Don C.</strong></span></a></div>
+    <div class="text">Ich mein die spieler die mittags aufn server sind btw</div>
+    <div class="info"><span class="date">18 May 15:17</span></div>
+</div>
+</div>
+</div>
+
+</div>
+
+<script type="text/javascript" src="./Burgerbude - MPICZ_files/dvz_shoutbox.js"></script>
+
+<script>
+dvz_shoutbox.interval = 5;
+dvz_shoutbox.antiflood = 5;
+dvz_shoutbox.maxShouts = 20;
+dvz_shoutbox.awayTime = 600*1000;
+dvz_shoutbox.lang = ['Do you really want to delete this message?', 'Please wait at least 5 seconds between your subsequent messages.', 'You do not have permissions to perform this action.'];
+dvz_shoutbox.lazyMode = '0';
+$(window).bind('scroll resize', dvz_shoutbox.checkVisibility);
+$(window).on('mousemove click dblclick keydown scroll', dvz_shoutbox.updateActivity);
+dvz_shoutbox.status = 1;
+setTimeout('dvz_shoutbox.loop()', 5 * 1000);
+dvz_shoutbox.recalling = true;
+
+dvz_shoutbox.firstId = 123;
+dvz_shoutbox.lastId = 144;
+dvz_shoutbox.appendControls();
+dvz_shoutbox.updateActivity();
+</script>
+
+</div>
+<!-- end: dvz_shoutbox -->
+<div class="side" style="float: right; width: 23%">
+</div>
+<div class="forum" style="float: left; width: 100%;"><!-- start: forumbit_depth1_cat -->
+<table border="0" cellspacing="0" cellpadding="5" class="tborder">
+<thead>
+<tr>
+<td class="thead" colspan="5">
+<div class="expcolimage"><i style="font-size: 14px; cursor: pointer;" class="fa fa-angle-up fa-fw expander" id="cat_1_img" title="[-]"></i></div>
+<div><strong><a href="http://burgerbude.net/forumdisplay.php?fid=1">Burgerbude Allgemein</a></strong></div>
+</td>
+</tr>
+</thead>
+<tbody style="" id="cat_1_e">
+<!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow2" align="center" valign="middle" width="1"><div class="forum_status forum_on ajax_mark_read" title="Forum enthält neue Beiträge - Klicken Sie hier, um das Forum als gelesen zu markieren" id="mark_read_2" style="cursor: pointer;"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow2" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=2">News</a></strong><div class="smalltext">Neuigkeiten rund um Burgerbude.net</div>
+</td>
+<td class="trow2" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  3 Topics &nbsp;&nbsp;<br>
+  3 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow2" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost -->
+<a href="http://burgerbude.net/showthread.php?tid=72&amp;action=lastpost" title="Burgerbude - Info">Burgerbude - Info</a>
+<br><i class="fa fa-clock-o" title="27.May.16, 15:34"></i> <span class="smalltext">von <a href="http://burgerbude.net/member.php?action=profile&amp;uid=1">_nCo</a></span>
+<!-- end: forumbit_depth2_forum_lastpost --></td>
+</tr>
+<!-- end: forumbit_depth2_forum --><!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow1" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_3"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow1" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=3">Feedback</a></strong><div class="smalltext">Hier könnt ihr Feedbacks zur Seite abgeben.</div>
+</td>
+<td class="trow1" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  0 Topics &nbsp;&nbsp;<br>
+  0 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow1" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost_never -->
+<div style="text-align: center;">Nie</div>
+<!-- end: forumbit_depth2_forum_lastpost_never --></td>
+</tr>
+<!-- end: forumbit_depth2_forum -->
+</tbody>
+</table>
+<br>
+<!-- end: forumbit_depth1_cat --><!-- start: forumbit_depth1_cat -->
+<table border="0" cellspacing="0" cellpadding="5" class="tborder">
+<thead>
+<tr>
+<td class="thead" colspan="5">
+<div class="expcolimage"><i style="font-size: 14px; cursor: pointer;" class="fa fa-angle-up fa-fw expander" id="cat_4_img" title="[-]"></i></div>
+<div><strong><a href="http://burgerbude.net/forumdisplay.php?fid=4">Community</a></strong></div>
+</td>
+</tr>
+</thead>
+<tbody style="" id="cat_4_e">
+<!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow1" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_5"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow1" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=5">Allgemeiner Talk</a></strong><div class="smalltext"></div>
+</td>
+<td class="trow1" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  2 Topics &nbsp;&nbsp;<br>
+  2 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow1" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost -->
+<a href="http://burgerbude.net/showthread.php?tid=71&amp;action=lastpost" title="Forum Changelog">Forum Changelog</a>
+<br><i class="fa fa-clock-o" title="14.May.16, 03:23"></i> <span class="smalltext">von <a href="http://burgerbude.net/member.php?action=profile&amp;uid=1">_nCo</a></span>
+<!-- end: forumbit_depth2_forum_lastpost --></td>
+</tr>
+<!-- end: forumbit_depth2_forum --><!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow2" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_6"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow2" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=6">English Talk</a></strong><div class="smalltext"></div>
+</td>
+<td class="trow2" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  0 Topics &nbsp;&nbsp;<br>
+  0 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow2" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost_never -->
+<div style="text-align: center;">Nie</div>
+<!-- end: forumbit_depth2_forum_lastpost_never --></td>
+</tr>
+<!-- end: forumbit_depth2_forum --><!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow1" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_7"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow1" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=7">Kaufberatungen</a></strong><div class="smalltext"></div>
+</td>
+<td class="trow1" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  0 Topics &nbsp;&nbsp;<br>
+  0 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow1" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost_never -->
+<div style="text-align: center;">Nie</div>
+<!-- end: forumbit_depth2_forum_lastpost_never --></td>
+</tr>
+<!-- end: forumbit_depth2_forum --><!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow2" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_8"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow2" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=8">Musik</a></strong><div class="smalltext"></div>
+</td>
+<td class="trow2" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  2 Topics &nbsp;&nbsp;<br>
+  8 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow2" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost -->
+<a href="http://burgerbude.net/showthread.php?tid=65&amp;action=lastpost" title="Round-End-Sounds">Round-End-Sounds</a>
+<br><i class="fa fa-clock-o" title="22.May.16, 12:40"></i> <span class="smalltext">von <a href="http://burgerbude.net/member.php?action=profile&amp;uid=2">Siplex</a></span>
+<!-- end: forumbit_depth2_forum_lastpost --></td>
+</tr>
+<!-- end: forumbit_depth2_forum -->
+</tbody>
+</table>
+<br>
+<!-- end: forumbit_depth1_cat --><!-- start: forumbit_depth1_cat -->
+<table border="0" cellspacing="0" cellpadding="5" class="tborder">
+<thead>
+<tr>
+<td class="thead" colspan="5">
+<div class="expcolimage"><i style="font-size: 14px; cursor: pointer;" class="fa fa-angle-up fa-fw expander" id="cat_9_img" title="[-]"></i></div>
+<div><strong><a href="http://burgerbude.net/forumdisplay.php?fid=9">Servers</a></strong></div>
+</td>
+</tr>
+</thead>
+<tbody style="" id="cat_9_e">
+<!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow2" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_10"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow2" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=10">Infos</a></strong><div class="smalltext"></div>
+</td>
+<td class="trow2" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  5 Topics &nbsp;&nbsp;<br>
+  14 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow2" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost -->
+<a href="http://burgerbude.net/showthread.php?tid=64&amp;action=lastpost" title="Noscope Beta release">Noscope Beta release</a>
+<br><i class="fa fa-clock-o" title="06.May.16, 03:21"></i> <span class="smalltext">von <a href="http://burgerbude.net/member.php?action=profile&amp;uid=2">Siplex</a></span>
+<!-- end: forumbit_depth2_forum_lastpost --></td>
+</tr>
+<!-- end: forumbit_depth2_forum --><!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow1" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_11"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow1" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=11">Rules</a></strong><div class="smalltext"></div>
+</td>
+<td class="trow1" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  1 Topics &nbsp;&nbsp;<br>
+  1 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow1" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost -->
+<a href="http://burgerbude.net/showthread.php?tid=23&amp;action=lastpost" title="Allgemeine Regeln für den Ts3 und CS:GO Server">Allgemeine Regeln für den...</a>
+<br><i class="fa fa-clock-o" title="19.Apr.16, 06:07"></i> <span class="smalltext">von <a href="http://burgerbude.net/member.php?action=profile&amp;uid=5">Prim3z</a></span>
+<!-- end: forumbit_depth2_forum_lastpost --></td>
+</tr>
+<!-- end: forumbit_depth2_forum --><!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow2" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_12"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow2" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=12">Report</a></strong><div class="smalltext"><!-- start: forumbit_subforums -->
+<br><strong>Unterforen:</strong> <div title="Forum enthält keine neuen Beiträge" class="subforumicon subforum_minioff ajax_mark_read" id="mark_read_13"></div><a href="http://burgerbude.net/forumdisplay.php?fid=13" title="">Bug Report</a>, <div title="Forum enthält keine neuen Beiträge" class="subforumicon subforum_minioff ajax_mark_read" id="mark_read_15"></div><a href="http://burgerbude.net/forumdisplay.php?fid=15" title="">Admin Report</a>, und 1 mehr.
+<!-- end: forumbit_subforums --></div>
+</td>
+<td class="trow2" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  1 Topics &nbsp;&nbsp;<br>
+  6 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow2" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost -->
+<a href="http://burgerbude.net/showthread.php?tid=25&amp;action=lastpost" title="[FORUM] Bugs melden">[FORUM] Bugs melden</a>
+<br><i class="fa fa-clock-o" title="01.May.16, 14:53"></i> <span class="smalltext">von <a href="http://burgerbude.net/member.php?action=profile&amp;uid=1">_nCo</a></span>
+<!-- end: forumbit_depth2_forum_lastpost --></td>
+</tr>
+<!-- end: forumbit_depth2_forum --><!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow1" align="center" valign="middle" width="1"><div class="forum_status forum_on ajax_mark_read" title="Forum enthält neue Beiträge - Klicken Sie hier, um das Forum als gelesen zu markieren" id="mark_read_16" style="cursor: pointer;"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow1" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=16">Bewerbungen</a></strong><div class="smalltext"></div>
+</td>
+<td class="trow1" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  5 Topics &nbsp;&nbsp;<br>
+  19 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow1" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost -->
+<a href="http://burgerbude.net/showthread.php?tid=73&amp;action=lastpost" title="Bewerbung als Admin">Bewerbung als Admin</a>
+<br><i class="fa fa-clock-o" title="27.May.16, 22:47"></i> <span class="smalltext">von <a href="http://burgerbude.net/member.php?action=profile&amp;uid=65">I'm BLUE</a></span>
+<!-- end: forumbit_depth2_forum_lastpost --></td>
+</tr>
+<!-- end: forumbit_depth2_forum -->
+</tbody>
+</table>
+<br>
+<!-- end: forumbit_depth1_cat --><!-- start: forumbit_depth1_cat -->
+<table border="0" cellspacing="0" cellpadding="5" class="tborder">
+<thead>
+<tr>
+<td class="thead" colspan="5">
+<div class="expcolimage"><i style="font-size: 14px; cursor: pointer;" class="fa fa-angle-up fa-fw expander" id="cat_17_img" title="[-]"></i></div>
+<div><strong><a href="http://burgerbude.net/forumdisplay.php?fid=17">Spiele</a></strong></div>
+</td>
+</tr>
+</thead>
+<tbody style="" id="cat_17_e">
+<!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow1" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_18"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow1" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=18">Counterstrike Global Offensive</a></strong><div class="smalltext"></div>
+</td>
+<td class="trow1" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  1 Topics &nbsp;&nbsp;<br>
+  1 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow1" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost -->
+<a href="http://burgerbude.net/showthread.php?tid=46&amp;action=lastpost" title="Release Notes for 4/21/2016">Release Notes for 4/21/20...</a>
+<br><i class="fa fa-clock-o" title="23.Apr.16, 16:52"></i> <span class="smalltext">von <a href="http://burgerbude.net/member.php?action=profile&amp;uid=1">_nCo</a></span>
+<!-- end: forumbit_depth2_forum_lastpost --></td>
+</tr>
+<!-- end: forumbit_depth2_forum --><!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow2" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_30"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow2" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=30">Diablo 3</a></strong><div class="smalltext"><!-- start: forumbit_subforums -->
+<br><strong>Unterforen:</strong> <div title="Forum ist geschlossen" class="subforumicon subforum_miniofflock ajax_mark_read" id="mark_read_38"></div><a href="http://burgerbude.net/forumdisplay.php?fid=38" title="">Charakter</a>
+<!-- end: forumbit_subforums --></div>
+</td>
+<td class="trow2" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  3 Topics &nbsp;&nbsp;<br>
+  6 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow2" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost -->
+<a href="http://burgerbude.net/showthread.php?tid=54&amp;action=lastpost" title="Season 6 Start">Season 6 Start</a>
+<br><i class="fa fa-clock-o" title="28.Apr.16, 18:19"></i> <span class="smalltext">von <a href="http://burgerbude.net/member.php?action=profile&amp;uid=10">justNCO</a></span>
+<!-- end: forumbit_depth2_forum_lastpost --></td>
+</tr>
+<!-- end: forumbit_depth2_forum --><!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow1" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_29"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow1" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=29">League of Legends</a></strong><div class="smalltext"></div>
+</td>
+<td class="trow1" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  8 Topics &nbsp;&nbsp;<br>
+  8 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow1" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost -->
+<a href="http://burgerbude.net/showthread.php?tid=43&amp;action=lastpost" title="League of Legends Ultra Rapid Fire">League of Legends Ultra R...</a>
+<br><i class="fa fa-clock-o" title="21.Apr.16, 14:41"></i> <span class="smalltext">von <a href="http://burgerbude.net/member.php?action=profile&amp;uid=5">Prim3z</a></span>
+<!-- end: forumbit_depth2_forum_lastpost --></td>
+</tr>
+<!-- end: forumbit_depth2_forum --><!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow2" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_40"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow2" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=40">Battlefield 1</a></strong><div class="smalltext"></div>
+</td>
+<td class="trow2" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  0 Topics &nbsp;&nbsp;<br>
+  0 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow2" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost_never -->
+<div style="text-align: center;">Nie</div>
+<!-- end: forumbit_depth2_forum_lastpost_never --></td>
+</tr>
+<!-- end: forumbit_depth2_forum --><!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow1" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_31"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow1" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=31">Arma III</a></strong><div class="smalltext"></div>
+</td>
+<td class="trow1" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  7 Topics &nbsp;&nbsp;<br>
+  24 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow1" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost -->
+<a href="http://burgerbude.net/showthread.php?tid=49&amp;action=lastpost" title="[Changelog] Server">[Changelog] Server</a>
+<br><i class="fa fa-clock-o" title="15.May.16, 19:16"></i> <span class="smalltext">von <a href="http://burgerbude.net/member.php?action=profile&amp;uid=10">justNCO</a></span>
+<!-- end: forumbit_depth2_forum_lastpost --></td>
+</tr>
+<!-- end: forumbit_depth2_forum -->
+</tbody>
+</table>
+<br>
+<!-- end: forumbit_depth1_cat --><!-- start: forumbit_depth1_cat -->
+<table border="0" cellspacing="0" cellpadding="5" class="tborder">
+<thead>
+<tr>
+<td class="thead" colspan="5">
+<div class="expcolimage"><i style="font-size: 14px; cursor: pointer;" class="fa fa-angle-up fa-fw expander" id="cat_20_img" title="[-]"></i></div>
+<div><strong><a href="http://burgerbude.net/forumdisplay.php?fid=20">Sonstiges</a></strong></div>
+</td>
+</tr>
+</thead>
+<tbody style="" id="cat_20_e">
+<!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow1" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_26"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow1" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=26">Suche</a></strong><div class="smalltext"></div>
+</td>
+<td class="trow1" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  0 Topics &nbsp;&nbsp;<br>
+  0 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow1" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost_never -->
+<div style="text-align: center;">Nie</div>
+<!-- end: forumbit_depth2_forum_lastpost_never --></td>
+</tr>
+<!-- end: forumbit_depth2_forum --><!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow2" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_27"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow2" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=27">Verschenke</a></strong><div class="smalltext"></div>
+</td>
+<td class="trow2" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  0 Topics &nbsp;&nbsp;<br>
+  0 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow2" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost_never -->
+<div style="text-align: center;">Nie</div>
+<!-- end: forumbit_depth2_forum_lastpost_never --></td>
+</tr>
+<!-- end: forumbit_depth2_forum --><!-- start: forumbit_depth2_forum -->
+<tr>
+<td class="trow1" align="center" valign="middle" width="1"><div class="forum_status forum_off ajax_mark_read" title="Forum enthält keine neuen Beiträge" id="mark_read_39"><i class="fa fa-gamepad"></i></div></td>
+<td class="trow1" valign="middle">
+<strong><a href="http://burgerbude.net/forumdisplay.php?fid=39">Sonstiges</a></strong><div class="smalltext"></div>
+</td>
+<td class="trow1" valign="middle" align="right" width="17%" style="white-space: nowrap">
+  1 Topics &nbsp;&nbsp;<br>
+  1 Replies &nbsp;&nbsp;
+  </td>
+<td class="trow1" valign="middle" align="left" width="19%" style="white-space: nowrap"><!-- start: forumbit_depth2_forum_lastpost -->
+<a href="http://burgerbude.net/showthread.php?tid=69&amp;action=lastpost" title="Microsoft Kostenlose Iso">Microsoft Kostenlose Iso</a>
+<br><i class="fa fa-clock-o" title="08.May.16, 16:58"></i> <span class="smalltext">von <a href="http://burgerbude.net/member.php?action=profile&amp;uid=2">Siplex</a></span>
+<!-- end: forumbit_depth2_forum_lastpost --></td>
+</tr>
+<!-- end: forumbit_depth2_forum -->
+</tbody>
+</table>
+<br>
+<!-- end: forumbit_depth1_cat --></div>
+<!-- start: index_boardstats -->
+<table border="0" cellspacing="0" cellpadding="5" class="tborder">
+<thead>
+<tr>
+<td class="thead">
+<div class="expcolimage"><img src="./Burgerbude - MPICZ_files/collapse.png" id="boardstats_img" class="expander" alt="[-]" title="[-]" style="cursor: pointer;"></div>
+<div><div class="float_left"><span class="smalltext">18 Benutzer aktiv in den letzten 15 Minuten: 3 Mitglieder, 0 davon unsichtbar und 14 Gäste (<a href="http://burgerbude.net/online.php">See full list</a>)</span></div></div>
+</td>
+</tr>
+</thead>
+<tbody style="" id="boardstats_e">
+<!-- start: index_whosonline -->
+<tr>
+<td class="trow1">
+  <a href="http://burgerbude.net/online.php"><i class="fa fa-user" title="Members online now"></i></a> &nbsp; <span class="smalltext"> Google, <a href="http://burgerbude.net/member.php?action=profile&amp;uid=65">I'm BLUE</a>, <a href="http://burgerbude.net/member.php?action=profile&amp;uid=66">nemesis1337</a>, <a href="http://burgerbude.net/member.php?action=profile&amp;uid=1"><span style="font-weight: bold;color: #B12121;"><strong>_nCo</strong></span></a></span>
+  </td>
+</tr>
+<!-- end: index_whosonline -->
+
+<!-- start: index_stats -->
+<tr>
+<td class="trow1">
+  <a href="http://burgerbude.net/stats.php"><i class="fa fa-bars" title="Forum stats"></i></a> &nbsp;
+  <span class="smalltext">
+Total Posts: 93
+ &nbsp;
+&nbsp;
+Total Threads: 39
+ &nbsp;
+&nbsp;
+Members: 62
+ &nbsp;
+&nbsp;
+Newest Member: nemesis1337
+ &nbsp;
+&nbsp;
+Most Online: 26
+&nbsp;
+</span>
+  <div class="float_right">
+    
+  </div>    
+  </td>
+</tr>
+<!-- end: index_stats -->
+<tr>
+	<td class="trow1" style="text-align: right">
+		<span class="smalltext">
+			<!-- start: index_logoutlink -->
+<a href="http://burgerbude.net/member.php?action=logout&amp;logoutkey=f777e7603ebb2928443071b4ba0dfcf6">Abmelden</a> | 
+<!-- end: index_logoutlink -->
+			<a href="http://burgerbude.net/misc.php?action=markread&amp;my_post_key=ae2ab50c03f316777a2035ee1decc23b">Alle Foren als gelesen markieren</a> |
+			<a href="http://burgerbude.net/showteam.php">Foren-Team</a>
+			<!-- start: index_statspage -->
+ |
+			<a href="http://burgerbude.net/stats.php">Foren-Statistiken</a>
+<!-- end: index_statspage -->
+		</span>
+	</td>
+</tr>
+</tbody>
+</table>
+<br>
+<!-- end: index_boardstats -->
+<br class="clear">
+<!-- start: footer -->
+<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE --><!-- End task image code -->
+
+  
+<div id="footerstuff">  
+<table width="100%" cellspacing="0" cellpadding="5" border="0" align="center">
+<tbody><tr>
+<td valign="top" width="100">
+  <div class="fmenu">
+<ul>
+<li><a href="http://burgerbude.net/contact.php"><i style="font-size: 14px;" class="fa fa-phone fa-fw"></i> Kontakt</a></li>
+<li><a href="http://burgerbude.net/misc.php?action=syndication"><i style="font-size: 14px;" class="fa fa-rss fa-fw"></i> RSS-Synchronisation</a></li>
+<li><a href="http://burgerbude.net/#top"><i style="font-size: 14px;" class="fa fa-chevron-up fa-fw"></i> Nach oben</a></li>
+</ul>
+    </div>
+</td>
+
+	
+<td>&nbsp;</td>
+<td valign="top" width="100%"><br>
+
+   <br><br><!-- start: footer_languageselect -->
+<div class="language">
+<form method="get" action="http://burgerbude.net/index.php" id="lang_select">
+	
+	<input type="hidden" name="my_post_key" value="ae2ab50c03f316777a2035ee1decc23b">
+	<select name="language" onchange="MyBB.changeLanguage();">
+		<optgroup label="Einfache Sprachauswahl">
+			<!-- start: footer_languageselect_option -->
+<option value="deutsch_du">&nbsp;&nbsp;&nbsp;Deutsch informell ("Du")</option>
+<!-- end: footer_languageselect_option --><!-- start: footer_languageselect_option -->
+<option value="deutsch_sie" selected="selected">&nbsp;&nbsp;&nbsp;Deutsch formell ("Sie")</option>
+<!-- end: footer_languageselect_option --><!-- start: footer_languageselect_option -->
+<option value="english">&nbsp;&nbsp;&nbsp;English (American)</option>
+<!-- end: footer_languageselect_option -->
+		</optgroup>
+	</select>
+	<!-- start: gobutton -->
+<input type="submit" class="button" value="Los">
+<!-- end: gobutton -->
+</form>
+</div>
+<!-- end: footer_languageselect --> 
+
+</td>
+</tr>
+</tbody></table>
+	</div>	
+  
+</div>
+</div>
+<br><center></center><br>
+<!-- end: footer -->
+
+
+<!-- end: index --></div></div></body></html>
